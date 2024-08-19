@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", function() {
     DivFunctionLog.addEventListener('submit', function(event){
         event.preventDefault();
         
-        if(password.value != ''){
+        if(OpenDIvP.value != ''){
              const userData = {
                 FullName: OpenDIvP.value,
                 Email: CloseDivE.value,
